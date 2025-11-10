@@ -1,0 +1,20 @@
+[workspace]
+authors = ["Katie Huang <katie.huang830@gmail.com>"]
+channels = ["conda-forge"]
+name = "eopc-analysis"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pandas = ">=2.3.3,<3"
+numpy = ">=2.3.4,<3"
+seaborn = ">=0.13.2,<0.14"
+matplotlib = ">=3.10.7,<4"
+statsmodels = ">=0.14.5,<0.15"
+jupyter = ">=1.1.1,<2"
+
+[pypi-dependencies]
+pysam = ">=0.23.3, <0.24"
+adjusttext = ">=1.3.0, <2"
