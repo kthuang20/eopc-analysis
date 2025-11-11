@@ -1,7 +1,7 @@
 # Identifying Genetic Risk Factors for Pancreatic Cancer
 
 ## Background
-Using a CRISPR/Cas9 screen done in pancreatic cells taken from a healthy 39-year-old woman who has a family history of EOPC, the research team has found something interesting on chromosome 18. Another member of the lab has already processed some genome sequencing data (`candidate_EOPC_variants.vcf`)from 473 EOPC patients and 891 cancer-free adults to generate germline variants matching the top 3,364 variants from our collaborator’s in vitro screen. The sample phenotypes have also been provided in the file called `phenotypes.tsv`. Both these files are located in the `data/raw/` folder.
+Using a CRISPR/Cas9 screen was done in pancreatic cells taken from a healthy 39-year-old woman who has a family history of EOPC, the research team has found something interesting on chromosome 18. Another member of the lab has already processed some genome sequencing data (`candidate_EOPC_variants.vcf`) from 473 EOPC patients and 891 cancer-free adults to generate germline variants matching the top 3,364 variants from our collaborator’s in vitro screen. The sample phenotypes have also been provided in the file called `phenotypes.tsv`. Both these files are located in the `data/raw/` folder.
 
 ## Objective
 The objective of this project is to identify whether any genetic variants from the are associated with pancreatic cancer risk.
