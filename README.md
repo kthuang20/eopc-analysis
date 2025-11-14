@@ -16,5 +16,5 @@ This code has been separated into two notebooks:
 ***NOTE:*** The intermediate files from the analysis can be found in the `data/processed/` folder.
 
 The `results/` folder contains the results from this analysis:
-* `manhattan_plot.png` – Manhattan plot summarizing the genetic variant association to pancreatic cancer of 2,784 genetic variants, accounting for ancestry and smoking history. The top 8 genetic variants (all with $p < 1x10^{-8}$) associated with EOPC risk have been annotated with their position on chromosome 18.
+* `manhattan_plot.png` – Manhattan plot summarizing the genetic variant association to pancreatic cancer of 2,784 genetic variants, accounting for ancestry and smoking history. The top 6 genetic variants (all with $p < 1x10^{-8}$) associated with EOPC risk have been annotated with their position on chromosome 18.
 * `top_100_variants.tsv` – a ranked list of the top 100 variants most strongly associated with EOPC risk have been exported to the `results` folder as `top_100_variants.tsv`. It includes the genomic position & alleles, odds ratio of the non-reference allele count, β for the non-reference allele count and p-value.
